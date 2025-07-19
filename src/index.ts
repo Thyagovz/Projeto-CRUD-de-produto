@@ -51,7 +51,7 @@ class ProductList implements IProductService {
     );
 
     this.productList.splice(productIndex, 1);
-    return { message: "Product sucessfully deleted." };
+    return { message: "Product successfully deleted." };
   }
 }
 
